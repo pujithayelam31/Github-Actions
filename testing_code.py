@@ -1,4 +1,4 @@
 from number import number
 
 def test_code():
-    assert number(2) == 0
+    assert number(x) == 0
