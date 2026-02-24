@@ -23,7 +23,7 @@ jobs:
           python-version: "3.11"
 
       - name: Run script
-        run: python example.py
+        run: python number.py
       
       - run: pip install pytest
       - run: pytest .

@@ -1,4 +1,4 @@
-from example import add
+from number import add
 # import math
 
 def test_add():
