@@ -1,13 +1,10 @@
-def number(x):
+a = 10
+b = 20
 
-    if x%2==0:
-        print(f"Even:{x}")
-    else:
-        print(f"Odd:{x}")
+print(a+b)
 
-digit=int(input("enter a number:"))
-
-number(digit)
+def add(a,b):
+    return a+b
 
 
 

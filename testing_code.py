@@ -1,4 +1,5 @@
-from number import number
+from example import add
+import math
 
-def testing_code():
-    assert number(x) ==0
+def test_add():
+    assert add(2, 3) == 5
