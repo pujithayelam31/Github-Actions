@@ -1,5 +1,5 @@
-from example import add
-import math
+from number import add
+# import math
 
-def test_add():
+def testing_code():
     assert add(2, 3) == 5
