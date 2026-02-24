@@ -1,11 +1,13 @@
-def number():
+def number(x):
 
-    if number%2==0:
-        print(f"Even:{number}")
+    if x%2==0:
+        print(f"Even:{x}")
     else:
-        print(f"Odd:{number}")
+        print(f"Odd:{x}")
 
-digit=int(input("enter a number"))
+digit=int(input("enter a number:"))
 
 number(digit)
+
+
 
